@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "restockmanager",
+  "version": "${version}",
+  "name": "Restock Manager",
+  "description": "Client-side Crystal PvP hotbar restock alerts and low-kit /rg reminders. Never moves items or sends commands.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.restockmanager.client.RestockManagerClient"] },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
